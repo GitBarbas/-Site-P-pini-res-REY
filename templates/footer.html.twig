@@ -1,0 +1,138 @@
+
+<footer>
+    <section id="contact" class="container">
+    
+        <div class="container pt-5">
+            <div class="row">
+    
+            <!-- contact info -->
+    
+            <div class="col-12 col-lg-12 text-center text-lg-center my-0">
+                <h2>Nous contacter</h2><br>
+            </div>
+            <div class="col-lg-6 contact-info text-center text-lg-left">
+                
+                <div id="mapid"></div><br>
+    
+                
+                <p><span><i class="fas fa-map-marker-alt pr-2" style="font-size: 1.5em"></i></span>Pépinières Rey 2050 route des Chères 69480 MORANCE</p>
+                <a class="mailto" href="mailto:contact@pepinieres-rey.com?Subject=Contact"><span><i class="far fa-envelope pr-2" style="font-size: 1.5em"></i></span>contact@pepinieres-rey.com</a><br>
+                <a class="tel" href="tel:+33478473528"> <span><i class="fas fa-tty pr-2" style="font-size: 1.5em"></i></span>+334 78 47 35 28</a><br>
+                <a href="fax:+334 78 47 35 54"> <span><i class="fas fa-fax pr-2" style="font-size: 1.5em"></i></span>+334 78 47 35 54</a>
+            </div>      
+    
+            <!-- contact form -->
+                    
+            <div class="col-lg-6">
+                
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Vous êtes un particuler 
+                    </label>
+                </div>
+                <div class="form-check pb-2">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                        Vous êtes un professionnel
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="siret-number">Numéro de siret *</label>
+                    <input id="form_name" type="number" name="siret" class="form-control" placeholder="Numéro de Siret *" required="required"
+                        data-error="">
+                    <div class="help-block with-errors"></div>
+                </div>
+    
+                <form id="contact-form" method="post" action="contact.php" role="form">
+                
+                    <div class="messages"></div>
+                
+                    <div class="controls">
+                
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_name">Prénom *</label>
+                                    <input id="form_name" type="text" name="name" class="form-control"
+                                        placeholder="Prénom *" required="required"
+                                        data-error="">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_lastname">Nom *</label>
+                                    <input id="form_lastname" type="text" name="surname" class="form-control"
+                                        placeholder="Nom *" required="required"
+                                        data-error="">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_email">Email *</label>
+                                    <input id="form_email" type="email" name="email" class="form-control"
+                                        placeholder="Votre email *" required="required"
+                                        data-error="">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_need">Raison *</label>
+                                    <select id="form_need" name="need" class="form-control" required="required"
+                                        data-error="">
+                                        <option value="">Aide commande</option>
+                                        <option value="price">Aide prix</option>
+                                        <option value="product">Aide produit</option>
+                                        <option value="Other">Autre</option>
+                                    </select>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_message">Message *</label>
+                                    <textarea id="form_message" name="message" class="form-control" placeholder="Message *"
+                                        rows="4" required="required" data-error="Merci d'écrire un message"></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="submit" class="btn btn-send" value="Envoyer">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="text-muted">
+                                
+                            </div>
+                        </div>
+                    </div>
+                
+                </form>
+    
+            </div>
+        </div>
+    </section>
+    
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col_lg_12 text-right">
+                <a href="#homeHeader"><i class="fas fa-sort-up" style="color: #436256; font-size: 2em;"></i></a>
+                </div>
+            </div>
+        </div>
+    
+        </div>
+            <p class="copyright col-12 text-center pt-5">© 2019 <a href="https://www.facebook.com/pepinieresrey">Pépinières REY . Tous droits réservés. </a><b></p>		
+        </div>
+    </footer>
+    
+    
